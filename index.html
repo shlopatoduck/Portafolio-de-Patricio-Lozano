@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patricio Lozano Bozikian | Portafolio</title>
+  <meta name="description" content="Portafolio de Patricio Lozano Bozikian, generalista 3D y editor de audio.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="index.html"><img src="assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="3d/index.html" data-i18n="nav.3d">3D</a>
+      <a href="audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero__text">
+        <h1 class="hero__name"><span>Patricio</span> <span>Lozano</span></h1>
+        <p class="hero__role" data-i18n="hero.role">Generalista 3D y editor de audio</p>
+        <nav class="hero__menu" aria-label="Secciones" data-i18n-attr="aria-label:hero.menuLabel">
+          <a href="3d/index.html" data-i18n="hero.m1">Mundos en 3D</a>
+          <a href="audio/index.html" data-i18n="hero.m2">Audio</a>
+          <a href="direccion/index.html" data-i18n="hero.m3">Dirección</a>
+          <a href="proyectos/index.html" data-i18n="hero.m4">Videojuegos</a>
+          <a href="contacto/index.html" data-i18n="hero.m5">Contacto</a>
+        </nav>
+      </div>
+      <img class="hero__art" src="assets/img/hero-knia.webp" width="581" height="840" fetchpriority="high" alt="Knia-Knia, un gecko bufón en 3D, en equilibrio sobre una esfera con su cetro" data-i18n-attr="alt:hero.alt">
+    </section>
+
+    <section class="section" id="tres-d">
+      <header class="section__head" data-reveal>
+        <h2 data-i18n="d3.title">Mundos en 3D</h2>
+        <p data-i18n="d3.intro">Del concepto al render: personajes, escenarios, luz, texturas, ropa, cabello y efectos.</p>
+      </header>
+
+      <article class="feature" data-reveal>
+        <a class="feature__media" href="knia-knia/index.html" aria-label="Ver Knia-Knia" data-i18n-attr="aria-label:knia.cta">
+          <img src="assets/img/knia-mundo-1.webp" width="1260" height="839" loading="lazy" alt="Escenario rojo de Knia-Knia: una tarima con estandartes de rombos entre colmillos gigantes" data-i18n-attr="alt:knia.alt1">
+        </a>
+        <div class="feature__body">
+          <h3>Knia-Knia<br><small>The Mad Jester</small></h3>
+          <p data-i18n="knia.text">Un personaje y su mundo, hechos de principio a fin: concepto, modelado, texturas, ropa, cabello y rig. Vive en un lugar fuera del tiempo y el espacio, donde todo es ridículo, absurdo y caótico.</p>
+          <p class="tools">ZBrush, Maya, Substance 3D Painter, Redshift, Unreal Engine</p>
+          <a class="btn" href="knia-knia/index.html" data-i18n="knia.cta">Ver Knia-Knia</a>
+        </div>
+      </article>
+
+      <ul class="gallery" aria-label="Imágenes de Knia-Knia" data-i18n-attr="aria-label:knia.gallery" data-reveal>
+        <li><button type="button" data-lightbox><img src="assets/img/knia-retrato.webp" width="1063" height="1538" loading="lazy" alt="Retrato de Knia-Knia con la lengua de fuera" data-i18n-attr="alt:knia.alt2"></button></li>
+        <li><button type="button" data-lightbox><img src="assets/img/knia-mundo-2.webp" width="1237" height="901" loading="lazy" alt="Vista amplia del escenario de Knia-Knia" data-i18n-attr="alt:knia.alt3"></button></li>
+        <li><button type="button" data-lightbox><img src="assets/img/knia-mundo-3.webp" width="1215" height="885" loading="lazy" alt="Foso circular en el escenario de Knia-Knia" data-i18n-attr="alt:knia.alt4"></button></li>
+        <li><button type="button" data-lightbox><img src="assets/img/knia-saludo.webp" width="765" height="1107" loading="lazy" alt="Knia-Knia con la mano levantada" data-i18n-attr="alt:knia.alt5"></button></li>
+        <li><button type="button" data-lightbox><img src="assets/img/knia-mundo-5.webp" width="1255" height="869" loading="lazy" alt="Tiendas y columnas en el escenario de Knia-Knia" data-i18n-attr="alt:knia.alt6"></button></li>
+      </ul>
+
+      <ul class="gates">
+        <li class="gate gate--wide" data-reveal><a href="iluminacion-y-texturas/index.html">
+          <img src="assets/img/luz-oficina.webp" width="1280" height="719" loading="lazy" alt="Oficina oscura iluminada por persianas" data-i18n-attr="alt:light.alt">
+          <span class="gate__label"><strong data-i18n="light.title">Iluminación y texturas</strong><span data-i18n="light.text">Materiales y luz en Maya y Substance Painter</span></span></a></li>
+        <li class="gate" data-reveal><a href="modelado-3d/index.html">
+          <img src="assets/img/modelado.webp" width="552" height="796" loading="lazy" alt="Escultura de un personaje con ropa" data-i18n-attr="alt:model.alt">
+          <span class="gate__label"><strong data-i18n="model.title">Modelado 3D</strong><span data-i18n="model.text">Orgánico e inorgánico, en Maya y ZBrush</span></span></a></li>
+        <li class="gate" data-reveal><a href="cfx/index.html">
+          <img src="assets/img/cfx-traje.webp" width="409" height="764" loading="lazy" alt="Traje con chaleco azul y capa negra" data-i18n-attr="alt:cfx.alt">
+          <span class="gate__label"><strong>CFX</strong><span data-i18n="cfx.text">Ropa, cabello y simulación</span></span></a></li>
+        <li class="gate" data-reveal><a href="rigging/index.html">
+          <img src="assets/img/rigging.webp" width="1280" height="620" loading="lazy" alt="Personaje 3D con controles de rig" data-i18n-attr="alt:rig.alt">
+          <span class="gate__label"><strong>Rigging</strong><span data-i18n="rig.text">Cuerpo completo y expresión facial</span></span></a></li>
+        <li class="gate gate--wide" data-reveal><a href="vfx/index.html">
+          <img src="assets/img/vfx.webp" width="1280" height="720" loading="lazy" alt="Banquete con frutas, barriles y velas en Unreal Engine" data-i18n-attr="alt:vfx.alt">
+          <span class="gate__label"><strong>VFX</strong><span data-i18n="vfx.text">Fuego, humo, partículas y portales en Unreal Engine</span></span></a></li>
+      </ul>
+    </section>
+
+    <section class="section section--audio" id="audio">
+      <header class="section__head" data-reveal>
+        <h2 data-i18n="audio.title">Audio</h2>
+        <p data-i18n="audio.intro">Sonidos, foleys y efectos creados por Patricio en estudio de grabación y en programas de audio.</p>
+      </header>
+      <div class="honors">
+        <article class="honor" data-reveal>
+          <button type="button" data-lightbox><img src="assets/img/audio-amigo.webp" width="543" height="800" loading="lazy" alt="Cartel de Un amigo caído del cielo" data-i18n-attr="alt:audio.alt1"></button>
+          <div><h3 data-i18n="audio.h1">Mejores efectos de sonido</h3><p data-i18n="audio.t1">Festival de Animación Parallax</p><p class="tools">Un amigo caído del cielo</p></div>
+        </article>
+        <article class="honor" data-reveal>
+          <button type="button" data-lightbox><img src="assets/img/audio-mask.webp" width="831" height="1080" loading="lazy" alt="Pantalla de título de Trial of the Mask" data-i18n-attr="alt:audio.alt2"></button>
+          <div><h3 data-i18n="audio.h2">Ganador de Game Jam</h3><p>Game Jam UDEM 2025</p><p class="tools">Trial of the Mask</p></div>
+        </article>
+      </div>
+      <div class="section__foot" data-reveal>
+        <p class="tools">Pro Tools, Audition, Audacity, FL Studio</p>
+        <a class="btn" href="audio/index.html" data-i18n="audio.cta">Ver audio</a>
+        <a class="btn btn--quiet" href="https://drive.google.com/file/d/1i__jCzZYMirsX0-vvZ7UQuhO5vnvlzUY/view" target="_blank" rel="noopener" data-i18n="audio.reel">Reproducir el audio reel</a>
+      </div>
+    </section>
+
+    <section class="section" id="direccion">
+      <article class="feature feature--flip" data-reveal>
+        <a class="feature__media" href="direccion/index.html" aria-label="Ver dirección" data-i18n-attr="aria-label:dir.cta">
+          <img src="assets/img/endless-party.webp" width="1280" height="720" loading="lazy" alt="Fotograma de Endless Party: una persona dormida junto a una lámpara" data-i18n-attr="alt:dir.alt">
+        </a>
+        <div class="feature__body">
+          <h2 data-i18n="dir.title">Dirección</h2>
+          <h3>Endless Party</h3>
+          <p data-i18n="dir.text">Cortometraje creado y dirigido por Patricio. Su idea fue la más votada en una clase de 36 personas, y todo el grupo trabajó en la producción.</p>
+          <a class="btn" href="direccion/index.html" data-i18n="dir.cta">Ver dirección</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="juegos">
+      <header class="section__head" data-reveal>
+        <h2 data-i18n="games.title">Videojuegos</h2>
+        <p data-i18n="games.intro">Proyectos en equipo, hechos en game jams de 48 y 72 horas.</p>
+      </header>
+      <ul class="games">
+        <li class="game" data-reveal>
+          <a class="game__media" href="https://eardum.itch.io/wambazos" target="_blank" rel="noopener"><img src="assets/img/juego-wambazos.webp" width="512" height="512" loading="lazy" alt="Logo de Wambazos" data-i18n-attr="alt:game1.alt"></a>
+          <h3>Wambazos</h3>
+          <p class="game__award" data-i18n="game1.award">Ganador, Game Jam UDEM 2024</p>
+          <p data-i18n="game1.text">Tema: lucha libre mexicana. Audio, voz y modelado 3D.</p>
+        </li>
+        <li class="game" data-reveal>
+          <a class="game__media" href="https://eardum.itch.io/ominous-mask" target="_blank" rel="noopener"><img src="assets/img/juego-mask.webp" width="512" height="399" loading="lazy" alt="Máscara de Trial of the Mask" data-i18n-attr="alt:game2.alt"></a>
+          <h3>Trial of the Mask</h3>
+          <p class="game__award" data-i18n="game2.award">Ganador, Game Jam UDEM 2025</p>
+          <p data-i18n="game2.text">Tema: máscaras. Audio y voz.</p>
+        </li>
+        <li class="game" data-reveal>
+          <a class="game__media" href="https://tamgom9267.itch.io/wingdawg" target="_blank" rel="noopener"><img src="assets/img/juego-sparky.webp" width="320" height="180" loading="lazy" alt="Portada de Sparky the Windawg" data-i18n-attr="alt:game3.alt"></a>
+          <h3>Sparky the Windawg</h3>
+          <p class="game__award">Melonjam</p>
+          <p data-i18n="game3.text">Tema: chispa. Audio, voz, modelado 3D, arte y animación 2D.</p>
+        </li>
+      </ul>
+      <div class="section__foot" data-reveal><a class="btn" href="proyectos/index.html" data-i18n="games.cta">Ver todos los proyectos</a></div>
+    </section>
+
+    <section class="section section--craft" id="oficio">
+      <header class="section__head" data-reveal>
+        <h2 data-i18n="craft.title">Oficio</h2>
+        <p data-i18n="craft.intro">Licenciatura en Animación y Efectos Digitales</p>
+      </header>
+      <div class="sheet" data-reveal>
+        <div><h3 data-i18n="craft.c1">Imagen</h3><ul><li data-i18n="craft.s1">Modelado y escultura 3D</li><li data-i18n="craft.s2">Creación de personajes</li><li data-i18n="craft.s3">Iluminación y texturizado</li><li>Rigging</li><li>CFX</li><li>VFX</li></ul></div>
+        <div><h3 data-i18n="craft.c2">Sonido e historia</h3><ul><li data-i18n="craft.s4">Edición y diseño de audio</li><li data-i18n="craft.s5">Actuación de voz</li><li data-i18n="craft.s6">Narrativa</li><li data-i18n="craft.s7">Dirección</li><li data-i18n="craft.s8">Edición de video</li></ul></div>
+        <div><h3 data-i18n="craft.c3">Herramientas</h3><p class="tools">Maya, ZBrush, Blender, Unreal Engine, Substance 3D Painter, Substance 3D Designer, Marvelous Designer, CLO 3D, Pro Tools, Audition, Audacity, Premiere Pro, After Effects, Photoshop, Illustrator</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

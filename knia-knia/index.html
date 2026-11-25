@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knia-Knia | Patricio Lozano</title>
+  <meta name="description" content="Knia-Knia, The Mad Jester: personaje 3D con su propio escenario 3D, creado por Patricio Lozano con Maya, Substance 3D Painter, ZBrush, Unreal Engine y Redshift.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" aria-current="true" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+    <header class="page-head">
+      <img class="page-head__bg" src="../assets/img/knia-mundo-1.webp" width="1260" height="839" alt="" fetchpriority="high">
+      <div class="page-head__text"><h1 data-i18n="pg.title">Knia-Knia</h1><p class="page-head__lead" data-i18n="pg.lead">The Mad Jester. El objetivo del proyecto fue crear un personaje 3D con su propio escenario 3D: concepto, modelado, texturas, ropa, cabello y rig completo del cuerpo, junto a un escenario que complementa al personaje. Combina ideas creativas para un proyecto que representa el estilo artístico de Patricio.</p><p class="tools">Maya, Substance 3D Painter, ZBrush, Unreal Engine, Redshift</p></div>
+    </header>
+    <section class="block">
+      <div class="block__head" data-reveal><h2 data-i18n="pg.char.h">Personaje 3D</h2><p data-i18n="pg.char.p">Knia-Knia es un personaje 3D creado, modelado, texturizado, renderizado y riggeado por Patricio. Software utilizado: ZBrush, Maya y Substance 3D Painter.</p></div>
+      <blockquote class="lore" data-reveal><p lang="en" data-i18n="pg.lore">A funny lil demonic gecko jester shattered across space and time. Loves to play games and devour humans. They are always jumping around and doing acrobatics. He likes to razzle, dancle and sometimes pranzle. She may be a god, but there is no way to know since they only think of chaos chaos!</p></blockquote>
+<ul class="wall wall--3 wall--figures" data-reveal>
+  <li><button type="button" data-lightbox><img src="../assets/img/hero-knia.webp" width="581" height="840" loading="lazy" alt="Knia-Knia en pose acrobática, en equilibrio sobre una esfera rosa con un cetro de bufón" data-i18n-attr="alt:pg.alt.hero"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-retrato.webp" width="1063" height="1538" loading="lazy" alt="Retrato de Knia-Knia con la lengua de fuera y el sombrero de bufón" data-i18n-attr="alt:pg.alt.retrato"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-saludo.webp" width="765" height="1107" loading="lazy" alt="Knia-Knia con la mano levantada sobre una esfera rosa" data-i18n-attr="alt:pg.alt.saludo"></button></li>
+</ul>
+      <div class="films">
+        <figure class="film film--tall" data-reveal><video controls preload="none" playsinline poster="../assets/video/knia-render.webp" width="1080" height="1920" src="../assets/video/knia-render.mp4"></video><figcaption data-i18n="pg.cap.render">Render del personaje con efectos y música</figcaption></figure>
+        <figure class="film" data-reveal><video controls preload="none" playsinline poster="../assets/video/knia-giro.webp" width="1920" height="1080" src="../assets/video/knia-giro.mp4"></video><figcaption data-i18n="pg.cap.giro">Giro de 360 grados del personaje</figcaption></figure>
+      </div>
+    </section>
+    <section class="block">
+      <div class="block__head" data-reveal><h2 data-i18n="pg.env.h">Escenario 3D</h2><p data-i18n="pg.env.p">Un escenario 3D que complementa la vibra de Knia-Knia: un lugar fuera del tiempo y el espacio, donde solo hay cosas ridículas y absurdas, puro caos y objetos sin sentido. Aquí es donde reside. Software utilizado: Maya, Substance 3D Painter y Unreal Engine.</p></div>
+<ul class="wall wall--2" data-reveal>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-mundo-1.webp" width="1260" height="839" loading="lazy" alt="Escenario rojo de Knia-Knia: una tarima con estandartes de rombos entre colmillos gigantes" data-i18n-attr="alt:pg.alt.m1"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-mundo-2.webp" width="1237" height="901" loading="lazy" alt="Escalera, tarima y estandartes entre colmillos sobre dunas rosadas del escenario de Knia-Knia" data-i18n-attr="alt:pg.alt.m2"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-mundo-3.webp" width="1215" height="885" loading="lazy" alt="Vista amplia del escenario de Knia-Knia" data-i18n-attr="alt:pg.alt.m3"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-mundo-4.webp" width="1254" height="863" loading="lazy" alt="Isla de arena rodeada de columnas carnosas y un campo de púas rojas" data-i18n-attr="alt:pg.alt.m4"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-mundo-5.webp" width="1255" height="869" loading="lazy" alt="Tarima circular, tiendas y estandartes de rombos entre colmillos en el escenario" data-i18n-attr="alt:pg.alt.m5"></button></li>
+  <li><button type="button" data-lightbox><img src="../assets/img/knia-mundo-6.webp" width="1263" height="838" loading="lazy" alt="Tiendas y columnas en el escenario de Knia-Knia" data-i18n-attr="alt:pg.alt.m6"></button></li>
+</ul>
+    </section>
+  </main>
+
+  <nav class="pager" aria-label="Otras secciones" data-i18n-attr="aria-label:pager.label">
+    <a class="pager__link pager__link--prev" href="../proyectos/index.html">
+      <img src="../assets/img/juego-mask.webp" width="512" height="399" loading="lazy" alt="">
+      <span><small data-i18n="pager.prev">Anterior</small><strong data-i18n="name.projects">Proyectos en equipo</strong></span>
+    </a>
+    <a class="pager__link pager__link--next" href="../iluminacion-y-texturas/index.html">
+      <img src="../assets/img/luz-oficina.webp" width="1280" height="719" loading="lazy" alt="">
+      <span><small data-i18n="pager.next">Siguiente</small><strong data-i18n="light.title">Iluminación y texturas</strong></span>
+    </a>
+  </nav>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

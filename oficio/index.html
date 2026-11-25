@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oficio | Patricio Lozano</title>
+  <meta name="description" content="Formación, habilidades y herramientas de Patricio Lozano.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" aria-current="page" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+    <header class="page-head page-head--plain">
+      <div class="page-head__text"><h1 data-i18n="craft.title">Oficio</h1><p class="page-head__lead" data-i18n="craft.intro">Licenciatura en Animación y Efectos Digitales</p></div>
+    </header>
+    <section class="block">
+      <div class="sheet" data-reveal>
+        <div><h2 data-i18n="craft.c1">Imagen</h2><ul><li data-i18n="craft.s1">Modelado y escultura 3D</li><li data-i18n="craft.s2">Creación de personajes</li><li data-i18n="craft.s3">Iluminación y texturizado</li><li>Rigging</li><li>CFX</li><li>VFX</li></ul></div>
+        <div><h2 data-i18n="craft.c2">Sonido e historia</h2><ul><li data-i18n="craft.s4">Edición y diseño de audio</li><li data-i18n="craft.s5">Actuación de voz</li><li data-i18n="craft.s6">Narrativa</li><li data-i18n="craft.s7">Dirección</li><li data-i18n="craft.s8">Edición de video</li></ul></div>
+        <div><h2 data-i18n="craft.c3">Herramientas</h2><p class="tools">Maya, ZBrush, Blender, Unreal Engine, Substance 3D Painter, Substance 3D Designer, Marvelous Designer, CLO 3D, Pro Tools, Audition, Audacity, Premiere Pro, After Effects, Photoshop, Illustrator</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

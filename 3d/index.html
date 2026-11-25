@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mundos en 3D | Patricio Lozano</title>
+  <meta name="description" content="Personajes, escenarios, luz, texturas, ropa, cabello y efectos en 3D de Patricio Lozano.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" aria-current="page" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+    <header class="page-head page-head--plain">
+      <div class="page-head__text"><h1 data-i18n="d3.title">Mundos en 3D</h1><p class="page-head__lead" data-i18n="d3.intro">Del concepto al render: personajes, escenarios, luz, texturas, ropa, cabello y efectos.</p></div>
+    </header>
+    <section class="block">
+      <article class="feature" data-reveal>
+        <a class="feature__media" href="../knia-knia/index.html" aria-label="Ver Knia-Knia" data-i18n-attr="aria-label:knia.cta">
+          <img src="../assets/img/knia-mundo-1.webp" width="1260" height="839" loading="lazy" alt="Escenario rojo de Knia-Knia: una tarima con estandartes de rombos entre colmillos gigantes" data-i18n-attr="alt:knia.alt1">
+        </a>
+        <div class="feature__body">
+          <h2 class="feature__name">Knia-Knia<br><small>The Mad Jester</small></h2>
+          <p data-i18n="knia.text">Un personaje y su mundo, hechos de principio a fin: concepto, modelado, texturas, ropa, cabello y rig. Vive en un lugar fuera del tiempo y el espacio, donde todo es ridículo, absurdo y caótico.</p>
+          <p class="tools">ZBrush, Maya, Substance 3D Painter, Redshift, Unreal Engine</p>
+          <a class="btn" href="../knia-knia/index.html" data-i18n="knia.cta">Ver Knia-Knia</a>
+        </div>
+      </article>
+      <ul class="gates">
+        <li class="gate gate--wide" data-reveal><a href="../iluminacion-y-texturas/index.html">
+          <img src="../assets/img/luz-oficina.webp" width="1280" height="719" loading="lazy" alt="Oficina oscura iluminada por persianas" data-i18n-attr="alt:light.alt">
+          <span class="gate__label"><strong data-i18n="light.title">Iluminación y texturas</strong><span data-i18n="light.text">Materiales y luz en Maya y Substance Painter</span></span></a></li>
+        <li class="gate" data-reveal><a href="../modelado-3d/index.html">
+          <img src="../assets/img/modelado.webp" width="552" height="796" loading="lazy" alt="Escultura de un personaje con ropa" data-i18n-attr="alt:model.alt">
+          <span class="gate__label"><strong data-i18n="model.title">Modelado 3D</strong><span data-i18n="model.text">Orgánico e inorgánico, en Maya y ZBrush</span></span></a></li>
+        <li class="gate" data-reveal><a href="../cfx/index.html">
+          <img src="../assets/img/cfx-traje.webp" width="409" height="764" loading="lazy" alt="Traje con chaleco azul y capa negra" data-i18n-attr="alt:cfx.alt">
+          <span class="gate__label"><strong>CFX</strong><span data-i18n="cfx.text">Ropa, cabello y simulación</span></span></a></li>
+        <li class="gate" data-reveal><a href="../rigging/index.html">
+          <img src="../assets/img/rigging.webp" width="1280" height="620" loading="lazy" alt="Personaje 3D con controles de rig" data-i18n-attr="alt:rig.alt">
+          <span class="gate__label"><strong>Rigging</strong><span data-i18n="rig.text">Cuerpo completo y expresión facial</span></span></a></li>
+        <li class="gate gate--wide" data-reveal><a href="../vfx/index.html">
+          <img src="../assets/img/vfx.webp" width="1280" height="720" loading="lazy" alt="Banquete con frutas, barriles y velas en Unreal Engine" data-i18n-attr="alt:vfx.alt">
+          <span class="gate__label"><strong>VFX</strong><span data-i18n="vfx.text">Fuego, humo, partículas y portales en Unreal Engine</span></span></a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 24" width="600" height="24">
+<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0">
+<stop offset="0" stop-color="#c6a562" stop-opacity="0"/><stop offset="0.5" stop-color="#c6a562" stop-opacity="1"/><stop offset="1" stop-color="#c6a562" stop-opacity="0"/></linearGradient></defs>
+<g fill="none" stroke-width="1.2" stroke-linecap="round">
+<path d="M0 12 H234 M366 12 H600" stroke="url(#g)"/>
+<path d="M266 12 C256 4 246 4 236 9 C246 8 254 10 262 12 C254 14 246 16 236 15 C246 20 256 20 266 12 Z M234 12 C222 12 214 10 204 6 M234 12 C222 12 214 14 204 18" stroke="#c6a562"/>
+<path d="M334 12 C344 4 354 4 364 9 C354 8 346 10 338 12 C346 14 354 16 364 15 C354 20 344 20 334 12 Z M366 12 C378 12 386 10 396 6 M366 12 C378 12 386 14 396 18" stroke="#c6a562"/>
+<path d="M300 2 L312 12 L300 22 L288 12 Z" stroke="#c6a562" fill="#0b0a08"/>
+<path d="M300 7 L306 12 L300 17 L294 12 Z" fill="#c6a562" stroke="none"/>
+<path d="M280 12 L285 8 L290 12 L285 16 Z M310 12 L315 8 L320 12 L315 16 Z" stroke="#c6a562" fill="#0b0a08"/>
+</g></svg>

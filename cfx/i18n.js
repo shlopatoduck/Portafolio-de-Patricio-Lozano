@@ -1,0 +1,40 @@
+window.I18N_EXTRA = {
+  es: {
+      "meta.title": "CFX | Patricio Lozano",
+      "meta.desc": "Character effects de Patricio Lozano: creación de pelo, cabello y ropa, y simulación, con XGen, Substance Painter, CLO y Marvelous Designer.",
+      "pg.title": "CFX",
+      "pg.lead": "Character effects: creación de pelo, cabello y ropa, y simulación.",
+      "pg.h.h": "Cabello",
+      "pg.h.p": "Cabello y pelo creados con XGen.",
+      "pg.h.1": "Cabello largo y liso, verde y amarillo, sobre un busto",
+      "pg.h.2": "Primer plano de un rostro con cejas y pestañas de pelo dorado",
+      "pg.h.3": "Perfil de una cabeza con cabello dorado peinado hacia atrás",
+      "pg.h.4": "Vista posterior de una cabeza con rastas oscuras y rizadas",
+      "pg.h.5": "Busto sobre un soporte azul con rastas oscuras y rizadas",
+      "pg.h.6": "Cabeza de maniquí en perspectiva con rastas oscuras y rizadas",
+      "pg.r.h": "Ropa",
+      "pg.r.p": "Ropa creada y simulada con CLO y Marvelous Designer.",
+      "pg.r.1": "Traje simulado en vista frontal: capa oscura, camisa blanca, chaleco azul, faja y pantalón estampado",
+      "pg.r.2": "Traje simulado en vista frontal, con la capa abierta",
+      "pg.r.3": "Traje simulado en vista posterior, con la capa oscura y plisada"
+  },
+  en: {
+      "meta.title": "CFX | Patricio Lozano",
+      "meta.desc": "Character effects by Patricio Lozano: hair, clothing and simulation, made with XGen, Substance Painter, CLO and Marvelous Designer.",
+      "pg.title": "CFX",
+      "pg.lead": "Character effects: hair, clothing and simulation.",
+      "pg.h.h": "Hair",
+      "pg.h.p": "Hair and fur created with XGen.",
+      "pg.h.1": "Long straight hair, green and yellow, on a bust",
+      "pg.h.2": "Close-up of a face with golden hair eyebrows and eyelashes",
+      "pg.h.3": "Profile of a head with golden hair combed back",
+      "pg.h.4": "Back view of a head with dark, curly locs",
+      "pg.h.5": "Bust on a blue stand with dark, curly locs",
+      "pg.h.6": "Mannequin head in perspective with dark, curly locs",
+      "pg.r.h": "Clothing",
+      "pg.r.p": "Clothing created and simulated with CLO and Marvelous Designer.",
+      "pg.r.1": "Simulated outfit in front view: dark cape, white shirt, blue vest, sash and patterned trousers",
+      "pg.r.2": "Simulated outfit in front view, with the cape open",
+      "pg.r.3": "Simulated outfit in back view, with the dark pleated cape"
+  }
+};

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VFX | Patricio Lozano</title>
+  <meta name="description" content="Efectos visuales creados en Unreal Engine por Patricio Lozano: fuego, humo, partículas, líquido, lluvia y portales.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" aria-current="true" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+    <header class="page-head">
+      <img class="page-head__bg" src="../assets/img/vfx.webp" width="1280" height="720" alt="" fetchpriority="high">
+      <div class="page-head__text"><h1 data-i18n="pg.title">VFX</h1><p class="page-head__lead" data-i18n="pg.lead">Efectos visuales creados en Unreal Engine</p></div>
+    </header>
+    <section class="block">
+    <figure class="film" data-reveal><video controls preload="none" playsinline poster="../assets/video/vfx-banquete.webp" width="1920" height="1080" src="../assets/video/vfx-banquete.mp4"></video><figcaption data-i18n="pg.banquete">Fuego, humo, partículas, líquido</figcaption></figure>
+    <figure class="film" data-reveal><video controls preload="none" playsinline poster="../assets/video/vfx-unreal.webp" width="1920" height="1080" src="../assets/video/vfx-unreal.mp4"></video><figcaption data-i18n="pg.unreal">Fuego, humo, partículas, lluvia, portal</figcaption></figure>
+    <div class="films">
+      <figure class="film" data-reveal><video controls preload="none" playsinline poster="../assets/video/vfx-portal.webp" width="1920" height="1080" src="../assets/video/vfx-portal.mp4"></video><figcaption data-i18n="pg.portal">Portal</figcaption></figure>
+      <figure class="film" data-reveal><video controls preload="none" playsinline poster="../assets/video/vfx-fuego.webp" width="1252" height="720" src="../assets/video/vfx-fuego.mp4"></video><figcaption data-i18n="pg.fuego">Fuego estilizado</figcaption></figure>
+    </div>
+    </section>
+  </main>
+
+  <nav class="pager" aria-label="Otras secciones" data-i18n-attr="aria-label:pager.label">
+    <a class="pager__link pager__link--prev" href="../rigging/index.html">
+      <img src="../assets/img/rigging.webp" width="1280" height="620" loading="lazy" alt="">
+      <span><small data-i18n="pager.prev">Anterior</small><strong>Rigging</strong></span>
+    </a>
+    <a class="pager__link pager__link--next" href="../audio/index.html">
+      <img src="../assets/img/audio-amigo.webp" width="543" height="800" loading="lazy" alt="">
+      <span><small data-i18n="pager.next">Siguiente</small><strong data-i18n="audio.title">Audio</strong></span>
+    </a>
+  </nav>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

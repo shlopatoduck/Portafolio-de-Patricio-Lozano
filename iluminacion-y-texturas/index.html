@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iluminación y texturas | Patricio Lozano</title>
+  <meta name="description" content="Trabajos de iluminación y texturizado de Patricio Lozano, creados con Maya y Substance Painter.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" aria-current="true" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+<header class="page-head">
+      <img class="page-head__bg" src="../assets/img/luz-oficina.webp" width="1280" height="719" alt="" fetchpriority="high">
+      <div class="page-head__text"><h1 data-i18n="pg.title">Iluminación y texturas</h1><p class="page-head__lead" data-i18n="pg.lead">Trabajos de iluminación y texturizado, con materiales e iluminación creados por Patricio.</p><p class="tools">Maya, Substance Painter</p></div>
+    </header>
+    <section class="block">
+      <div class="block__head" data-reveal><h2 data-i18n="pg.a.h">Iluminación</h2></div>
+      <figure class="film" data-reveal><video controls preload="none" playsinline poster="../assets/video/luz-pasillo.webp" width="1920" height="1080" src="../assets/video/luz-pasillo.mp4"></video></figure>
+      <ul class="wall" data-reveal>
+        <li class="is-wide"><button type="button" data-lightbox><img src="../assets/img/luz-oficina.webp" width="1280" height="719" loading="lazy" alt="Sala oscura con muebles de cuero, estanterías y un televisor, iluminada con luz cálida y tenue" data-i18n-attr="alt:pg.a.oficina"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/luz-b.webp" width="1280" height="732" loading="lazy" alt="Frutero con plátanos, manzana, pera, uvas y naranja sobre fondo oscuro, con luz lateral" data-i18n-attr="alt:pg.a.b"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/luz-c.webp" width="1280" height="720" loading="lazy" alt="Frutero iluminado con luz dorada sobre telas, con profundidad de campo" data-i18n-attr="alt:pg.a.c"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/luz-busto.webp" width="1280" height="720" loading="lazy" alt="Busto de una cabeza humana calva que emerge de un fondo negro con luz suave" data-i18n-attr="alt:pg.a.busto"></button></li>
+        <li class="is-tall"><button type="button" data-lightbox><img src="../assets/img/luz-cuarto.webp" width="900" height="1600" loading="lazy" alt="Cuarto con ventana y suelo de madera, con haces de luz solar y un objeto sobre una caja al centro" data-i18n-attr="alt:pg.a.cuarto"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/luz-robot.webp" width="493" height="500" loading="lazy" alt="Robot gris de formas simples sobre fondo oscuro, iluminado con luz de contorno" data-i18n-attr="alt:pg.a.robot"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/luz-esfera.webp" width="1000" height="1047" loading="lazy" alt="Esfera de vidrio verde sobre una base ornamentada, con reflejos sobre fondo rojo" data-i18n-attr="alt:pg.a.esfera"></button></li>
+        <li class="is-span2"><button type="button" data-lightbox><img src="../assets/img/luz-bar.webp" width="960" height="540" loading="lazy" alt="Bar nocturno con luces moradas, una barra pulida y una lámpara esférica encendida" data-i18n-attr="alt:pg.a.bar"></button></li>
+        <li class="is-wide"><button type="button" data-lightbox><img src="../assets/img/luz-puente.webp" width="1280" height="729" loading="lazy" alt="Tres jarras de vidrio grabado sobre una mesa pulida, con una cabaña de madera entre árboles al fondo" data-i18n-attr="alt:pg.a.puente"></button></li>
+      </ul>
+    </section>
+    <section class="block">
+      <div class="block__head" data-reveal><h2 data-i18n="pg.t.h">Texturas</h2><p data-i18n="pg.t.p">Materiales creados en Substance Painter.</p></div>
+      <ul class="wall wall--2" data-reveal>
+        <li><button type="button" data-lightbox><img src="../assets/img/tex-escritorio-1.webp" width="1114" height="705" loading="lazy" alt="Escritorio de piedra con cajones abiertos, texturizado en Substance Painter" data-i18n-attr="alt:pg.t.e1"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/tex-escritorio-2.webp" width="1280" height="831" loading="lazy" alt="Escritorio texturizado visto de frente, con cajones a ambos lados" data-i18n-attr="alt:pg.t.e2"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/tex-escritorio-3.webp" width="1278" height="843" loading="lazy" alt="Escritorio texturizado en vista frontal con cajones laterales" data-i18n-attr="alt:pg.t.e3"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/tex-escritorio-4.webp" width="1053" height="657" loading="lazy" alt="Escritorio texturizado en vista tres cuartos con un cajón abierto" data-i18n-attr="alt:pg.t.e4"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/tex-ojos-1.webp" width="1230" height="954" loading="lazy" alt="Roca verde amarillenta con ojos rosados incrustados, vista en perspectiva" data-i18n-attr="alt:pg.t.o1"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/tex-ojos-2.webp" width="1261" height="978" loading="lazy" alt="Roca verde amarillenta con ojos rosados incrustados, vista superior" data-i18n-attr="alt:pg.t.o2"></button></li>
+      </ul>
+    </section>
+  </main>
+
+  <nav class="pager" aria-label="Otras secciones" data-i18n-attr="aria-label:pager.label">
+    <a class="pager__link pager__link--prev" href="../knia-knia/index.html">
+      <img src="../assets/img/knia-mundo-1.webp" width="1260" height="839" loading="lazy" alt="">
+      <span><small data-i18n="pager.prev">Anterior</small><strong>Knia-Knia</strong></span>
+    </a>
+    <a class="pager__link pager__link--next" href="../modelado-3d/index.html">
+      <img src="../assets/img/modelado.webp" width="552" height="796" loading="lazy" alt="">
+      <span><small data-i18n="pager.next">Siguiente</small><strong data-i18n="model.title">Modelado 3D</strong></span>
+    </a>
+  </nav>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

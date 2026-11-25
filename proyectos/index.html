@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos en equipo | Patricio Lozano</title>
+  <meta name="description" content="Videojuegos colaborativos de Patricio Lozano hechos en game jams de 48 y 72 horas.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" aria-current="page" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+    <header class="page-head page-head--plain">
+      <div class="page-head__text">
+        <h1 data-i18n="pg.title">Proyectos en equipo</h1>
+        <p class="page-head__lead" data-i18n="pg.lead">Videojuegos hechos en equipo durante game jams de 48 y 72 horas.</p>
+      </div>
+    </header>
+
+    <section class="block">
+      <ul class="games">
+        <li class="game" data-reveal>
+          <a class="game__media" href="https://eardum.itch.io/wambazos" target="_blank" rel="noopener"><img src="../assets/img/juego-wambazos.webp" width="512" height="512" loading="lazy" alt="Logo de Wambazos" data-i18n-attr="alt:game1.alt"></a>
+          <h3>Wambazos</h3>
+          <p class="game__award" data-i18n="game1.award">Ganador, Game Jam UDEM 2024</p>
+          <p data-i18n="pg.g1.meta">72 horas. Tema: lucha libre mexicana.</p>
+          <p data-i18n="pg.g1.roles">Edición de audio, actuación de voz y modelado 3D.</p>
+          <a class="btn" href="https://eardum.itch.io/wambazos" target="_blank" rel="noopener" data-i18n="pg.play">Jugar en itch.io</a>
+        </li>
+        <li class="game" data-reveal>
+          <a class="game__media" href="https://eardum.itch.io/ominous-mask" target="_blank" rel="noopener"><img src="../assets/img/juego-mask.webp" width="512" height="399" loading="lazy" alt="Máscara de Trial of the Mask" data-i18n-attr="alt:game2.alt"></a>
+          <h3>Trial of the Mask</h3>
+          <p class="game__award" data-i18n="game2.award">Ganador, Game Jam UDEM 2025</p>
+          <p data-i18n="pg.g2.meta">72 horas. Tema: máscaras.</p>
+          <p data-i18n="pg.g2.roles">Edición de audio y actuación de voz.</p>
+          <a class="btn" href="https://eardum.itch.io/ominous-mask" target="_blank" rel="noopener" data-i18n="pg.play">Jugar en itch.io</a>
+        </li>
+        <li class="game" data-reveal>
+          <a class="game__media" href="https://tamgom9267.itch.io/wingdawg" target="_blank" rel="noopener"><img src="../assets/img/juego-sparky.webp" width="320" height="180" loading="lazy" alt="Portada de Sparky the Windawg" data-i18n-attr="alt:game3.alt"></a>
+          <h3>Sparky the Windawg</h3>
+          <p class="game__award" data-i18n="pg.g3.jam">Melonjam</p>
+          <p data-i18n="pg.g3.meta">48 horas. Tema: chispa.</p>
+          <p data-i18n="pg.g3.roles">Edición de audio, actuación de voz, modelado 3D, arte 2D y animación 2D.</p>
+          <a class="btn" href="https://tamgom9267.itch.io/wingdawg" target="_blank" rel="noopener" data-i18n="pg.play">Jugar en itch.io</a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <nav class="pager" aria-label="Otras secciones" data-i18n-attr="aria-label:pager.label">
+    <a class="pager__link pager__link--prev" href="../direccion/index.html">
+      <img src="../assets/img/endless-party.webp" width="1280" height="720" loading="lazy" alt="">
+      <span><small data-i18n="pager.prev">Anterior</small><strong data-i18n="dir.title">Dirección</strong></span>
+    </a>
+    <a class="pager__link pager__link--next" href="../knia-knia/index.html">
+      <img src="../assets/img/knia-mundo-1.webp" width="1260" height="839" loading="lazy" alt="">
+      <span><small data-i18n="pager.next">Siguiente</small><strong>Knia-Knia</strong></span>
+    </a>
+  </nav>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modelado 3D | Patricio Lozano</title>
+  <meta name="description" content="Modelos 3D orgánicos e inorgánicos de Patricio Lozano, creados con Maya y ZBrush y con UVs ya hechos.">
+  <meta name="theme-color" content="#0b0a08">
+  <link rel="icon" href="../assets/svg/crest.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <script src="i18n.js" defer></script>
+  <script src="../js/i18n.js" defer></script>
+  <script src="../js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip">Saltar al contenido</a>
+  <canvas class="embers" id="embers" aria-hidden="true"></canvas>
+
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="../index.html"><img src="../assets/svg/crest.svg" alt="" width="36" height="36"><span>Patricio Lozano</span></a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menu">Menú</button>
+    <nav class="nav__menu" id="nav-menu" aria-label="Principal" data-i18n-attr="aria-label:nav.label">
+      <a href="../3d/index.html" aria-current="true" data-i18n="nav.3d">3D</a>
+      <a href="../audio/index.html" data-i18n="nav.audio">Audio</a>
+      <a href="../direccion/index.html" data-i18n="nav.dir">Dirección</a>
+      <a href="../proyectos/index.html" data-i18n="nav.games">Videojuegos</a>
+      <a href="../oficio/index.html" data-i18n="nav.craft">Oficio</a>
+      <a href="../contacto/index.html" data-i18n="nav.contact">Contacto</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma" data-i18n-attr="aria-label:lang.label">
+      <button type="button" data-lang="es" lang="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main class="page" id="contenido">
+<header class="page-head page-head--plain">
+      <div class="page-head__text"><h1 data-i18n="pg.title">Modelado 3D</h1><p class="page-head__lead" data-i18n="pg.lead">Modelos 3D inorgánicos y orgánicos, con UVs ya hechos. Creados con Maya y ZBrush.</p><p class="tools">Maya, ZBrush</p></div>
+    </header>
+    <section class="block">
+      <div class="block__head" data-reveal><h2 data-i18n="pg.c.h">Personaje</h2><p data-i18n="pg.c.p">Modelado orgánico con su malla y sus UVs.</p></div>
+      <ul class="wall" data-reveal>
+        <li class="is-wide"><button type="button" data-lightbox><img src="../assets/img/modelado-vistas.webp" width="1280" height="572" loading="lazy" alt="Personaje masculino modelado, en vistas de frente, espalda y perfiles, en gris sobre fondo oscuro" data-i18n-attr="alt:pg.c.vistas"></button></li>
+        <li class="is-wide"><button type="button" data-lightbox><img src="../assets/img/modelado-cuerpo.webp" width="1280" height="543" loading="lazy" alt="Cuatro vistas del cuerpo del personaje con ropa de aventurero y botas" data-i18n-attr="alt:pg.c.cuerpo"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/modelado.webp" width="552" height="796" loading="lazy" alt="Personaje con chaleco acolchado, cinturón y botas, en vista de tres cuartos" data-i18n-attr="alt:pg.c.modelado"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/modelado-malla.webp" width="468" height="693" loading="lazy" alt="Malla de topología del cuerpo completo del personaje, en azul sobre gris" data-i18n-attr="alt:pg.c.malla"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/modelado-uvs.webp" width="798" height="766" loading="lazy" alt="Mapa de UVs del personaje con piezas del cuerpo, manos y rostro ordenadas en el espacio" data-i18n-attr="alt:pg.c.uvs"></button></li>
+      </ul>
+    </section>
+    <section class="block">
+      <div class="block__head" data-reveal><h2 data-i18n="pg.p.h">Props</h2><p data-i18n="pg.p.p">Modelado inorgánico: un escritorio con su malla.</p></div>
+      <ul class="wall wall--2" data-reveal>
+        <li><button type="button" data-lightbox><img src="../assets/img/modelado-escritorio.webp" width="1280" height="962" loading="lazy" alt="Escritorio con lámpara, silla de oficina y objetos sobre la mesa, en gris" data-i18n-attr="alt:pg.p.escritorio"></button></li>
+        <li><button type="button" data-lightbox><img src="../assets/img/modelado-escritorio-malla.webp" width="1280" height="962" loading="lazy" alt="Malla de alambre de un escritorio con lámpara, silla y objetos sobre la mesa" data-i18n-attr="alt:pg.p.malla"></button></li>
+      </ul>
+    </section>
+  </main>
+
+  <nav class="pager" aria-label="Otras secciones" data-i18n-attr="aria-label:pager.label">
+    <a class="pager__link pager__link--prev" href="../iluminacion-y-texturas/index.html">
+      <img src="../assets/img/luz-oficina.webp" width="1280" height="719" loading="lazy" alt="">
+      <span><small data-i18n="pager.prev">Anterior</small><strong data-i18n="light.title">Iluminación y texturas</strong></span>
+    </a>
+    <a class="pager__link pager__link--next" href="../cfx/index.html">
+      <img src="../assets/img/cfx-traje.webp" width="409" height="764" loading="lazy" alt="">
+      <span><small data-i18n="pager.next">Siguiente</small><strong>CFX</strong></span>
+    </a>
+  </nav>
+
+  <footer class="footer" id="contacto">
+    <img class="footer__crest" src="../assets/svg/crest.svg" alt="" width="96" height="96" loading="lazy">
+    <h2 data-i18n="contact.title">Contacto</h2>
+    <a class="footer__mail" href="mailto:lozanobozikian04@gmail.com">lozanobozikian04@gmail.com</a>
+    <p><a href="https://www.instagram.com/rubberducktape_/" target="_blank" rel="noopener">Instagram: rubberducktape_</a></p>
+    <p>YouTube: RubberDuckTape</p>
+    <p class="footer__legal">Patricio Lozano Bozikian</p>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Imagen ampliada" data-i18n-attr="aria-label:lightbox.label">
+    <img alt="">
+    <button type="button" class="lightbox__close" data-i18n="lightbox.close">Cerrar</button>
+  </dialog>
+</body>
+</html>
